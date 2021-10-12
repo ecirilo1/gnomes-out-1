@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "testcapi"
-set :repo_url, "git@github.com:ecirilo1/testcapi.git"
+set :repo_url, "git@github.com:ecirilo1/gnomes-out-1.git"
 
 # set :application, "testcapi"
 # set :repo_url, "git@github.com:ecirilo1/testcapi.git"
