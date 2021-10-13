@@ -1,4 +1,4 @@
-server '', user: 'ubuntu', roles: %w{web app db}
+server '152.228.162.169', user: 'deploy', roles: %w{web app db}
 set :rails_env, 'production'
 
 # server-based syntax
