@@ -41,6 +41,10 @@ gem 'capistrano-rails', '~> 1.4'
 gem 'capistrano-passenger', '~> 0.2.0'
 gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
 
+gem 'ed25519', '>= 1.2', '< 2.0'
+gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
+
+
 
 group :development, :test do
   gem 'pry-byebug'
@@ -58,10 +62,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'capistrano', '~> 3.11', require: false
-  gem 'capistrano-rails', '~> 1.4', require: false
-  gem 'capistrano-passenger', '~> 0.2.0'
-  gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
+  # gem 'capistrano', '~> 3.11', require: false
+  # gem 'capistrano-rails', '~> 1.4', require: false
+  # gem 'capistrano-passenger', '~> 0.2.0'
+  # gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
 end
 
 group :test do
