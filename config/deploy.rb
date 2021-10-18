@@ -15,7 +15,7 @@ set :default_env, { home: "~/.rbenv/bin/rbenv init:$HOME" }
 # config/deploy.rb
 
 set :rbenv_type, :user # or :system, or :fullstaq (for Fullstaq Ruby), depends on your rbenv setup
-set :rbenv_ruby, '2.4.2'
+set :rbenv_ruby, '2.7.3'
 # task :set_remote_rbenv_path do
 # set :rbenv_path, '/home/deploy/.rbenv/bin/rbenv'
 # end
